@@ -3,7 +3,7 @@ const selectors = {
   board: document.querySelector(".board"),
   moves: document.querySelector(".moves"),
   timer: document.querySelector(".timer"),
-  start: document.querySelector("button"),
+  start: document.querySelector(".start"),
   win: document.querySelector(".win"),
 };
 

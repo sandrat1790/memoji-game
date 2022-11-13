@@ -2,12 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="HandheldFriendly" content="true" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0"
+      content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1, user-scalable=no"
     />
-    <title>Test Your Memory</title>
+
+    <title>Memoji Game</title>
 
     <link rel="stylesheet" href="src/styles.css" />
     <script src="src/game.js" defer></script>
@@ -15,8 +17,7 @@
   <body>
     <div class="game">
       <div class="controls">
-        <button>START</button>
-        <button>RESET</button>
+        <button class="start">START</button>
         <div class="stats">
           <div class="moves">0 moves</div>
           <div class="timer">time: 0 seconds</div>
